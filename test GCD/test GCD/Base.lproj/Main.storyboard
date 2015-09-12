@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LN5-Ty-HgJ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LN5-Ty-HgJ" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="8yK-7c-89K"/>
+                            <constraint firstItem="LN5-Ty-HgJ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="M6v-6U-dN9"/>
+                            <constraint firstAttribute="trailing" secondItem="LN5-Ty-HgJ" secondAttribute="trailing" id="RgA-PZ-Lzj"/>
+                            <constraint firstItem="LN5-Ty-HgJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="dak-lO-1MT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="LN5-Ty-HgJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8yK-7c-89K"/>
+                                <exclude reference="M6v-6U-dN9"/>
+                                <exclude reference="RgA-PZ-Lzj"/>
+                                <exclude reference="dak-lO-1MT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="LN5-Ty-HgJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8yK-7c-89K"/>
+                                <include reference="M6v-6U-dN9"/>
+                                <include reference="RgA-PZ-Lzj"/>
+                                <include reference="dak-lO-1MT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="LN5-Ty-HgJ" id="RqR-DQ-fwR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

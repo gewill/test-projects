@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WwF-hI-44M">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TIw-fF-wkn">
+            <objects>
+                <viewController id="WwF-hI-44M" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RDm-tg-wFy"/>
+                        <viewControllerLayoutGuide type="bottom" id="6rH-J7-Ueq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AIm-Qb-ruo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knv-I4-lEl">
+                                <rect key="frame" x="16" y="28" width="568" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="mMd-QD-mbo"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="c5s-Ck-Fhr" kind="embed" identifier="videoSegue" id="nD7-hm-Cf1"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="knv-I4-lEl" firstAttribute="leading" secondItem="AIm-Qb-ruo" secondAttribute="leadingMargin" id="Iaf-4g-ZRx"/>
+                            <constraint firstItem="knv-I4-lEl" firstAttribute="trailing" secondItem="AIm-Qb-ruo" secondAttribute="trailingMargin" id="Xu2-Si-dij"/>
+                            <constraint firstItem="knv-I4-lEl" firstAttribute="top" secondItem="RDm-tg-wFy" secondAttribute="bottom" constant="8" id="tKo-PY-OQh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mce-pE-bef" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="Y0V-NH-k2a">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="c5s-Ck-Fhr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQ2-nH-6fR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225" y="185"/>
+        </scene>
+    </scenes>
+</document>
