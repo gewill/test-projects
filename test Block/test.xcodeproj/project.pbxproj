@@ -416,6 +416,7 @@
 				BE4779981BA3D3A9000B1995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE4779991BA3D3A9000B1995 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				BE47799B1BA3D3A9000B1995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

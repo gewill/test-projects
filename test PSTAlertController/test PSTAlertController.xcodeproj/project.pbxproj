@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7DB38D1BEA12AD006FB393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7DB38C1BEA12AD006FB393 /* AppDelegate.swift */; };
+		BE7DB38F1BEA12AD006FB393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7DB38E1BEA12AD006FB393 /* ViewController.swift */; };
+		BE7DB3921BEA12AD006FB393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DB3901BEA12AD006FB393 /* Main.storyboard */; };
+		BE7DB3941BEA12AD006FB393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7DB3931BEA12AD006FB393 /* Assets.xcassets */; };
+		BE7DB3971BEA12AD006FB393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DB3951BEA12AD006FB393 /* LaunchScreen.storyboard */; };
+		BE7DB3A71BEA12F4006FB393 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DB3A51BEA12F4006FB393 /* PSTAlertController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE7DB3891BEA12AD006FB393 /* test PSTAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test PSTAlertController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7DB38C1BEA12AD006FB393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE7DB38E1BEA12AD006FB393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE7DB3911BEA12AD006FB393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE7DB3931BEA12AD006FB393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE7DB3961BEA12AD006FB393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE7DB3981BEA12AD006FB393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7DB3A01BEA12D0006FB393 /* test PSTAlertController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test PSTAlertController-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE7DB3A41BEA12F4006FB393 /* PSTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
+		BE7DB3A51BEA12F4006FB393 /* PSTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTAlertController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7DB3861BEA12AD006FB393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7DB3801BEA12AD006FB393 = {
+			isa = PBXGroup;
+			children = (
+				BE7DB38B1BEA12AD006FB393 /* test PSTAlertController */,
+				BE7DB38A1BEA12AD006FB393 /* Products */,
+				BE7DB3A01BEA12D0006FB393 /* test PSTAlertController-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7DB38A1BEA12AD006FB393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DB3891BEA12AD006FB393 /* test PSTAlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7DB38B1BEA12AD006FB393 /* test PSTAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DB38C1BEA12AD006FB393 /* AppDelegate.swift */,
+				BE7DB38E1BEA12AD006FB393 /* ViewController.swift */,
+				BE7DB3901BEA12AD006FB393 /* Main.storyboard */,
+				BE7DB3931BEA12AD006FB393 /* Assets.xcassets */,
+				BE7DB3951BEA12AD006FB393 /* LaunchScreen.storyboard */,
+				BE7DB3981BEA12AD006FB393 /* Info.plist */,
+				BE7DB3A61BEA12F4006FB393 /* PSTAlertController */,
+			);
+			path = "test PSTAlertController";
+			sourceTree = "<group>";
+		};
+		BE7DB3A61BEA12F4006FB393 /* PSTAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DB3A41BEA12F4006FB393 /* PSTAlertController.h */,
+				BE7DB3A51BEA12F4006FB393 /* PSTAlertController.m */,
+			);
+			name = PSTAlertController;
+			path = /Users/Will/git/PSTAlertController/Example/PSTAlertViewControllerSample/../../PSTAlertController;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7DB3881BEA12AD006FB393 /* test PSTAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7DB39B1BEA12AD006FB393 /* Build configuration list for PBXNativeTarget "test PSTAlertController" */;
+			buildPhases = (
+				BE7DB3851BEA12AD006FB393 /* Sources */,
+				BE7DB3861BEA12AD006FB393 /* Frameworks */,
+				BE7DB3871BEA12AD006FB393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test PSTAlertController";
+			productName = "test PSTAlertController";
+			productReference = BE7DB3891BEA12AD006FB393 /* test PSTAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7DB3811BEA12AD006FB393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gewill.org;
+				TargetAttributes = {
+					BE7DB3881BEA12AD006FB393 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BE7DB3841BEA12AD006FB393 /* Build configuration list for PBXProject "test PSTAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7DB3801BEA12AD006FB393;
+			productRefGroup = BE7DB38A1BEA12AD006FB393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7DB3881BEA12AD006FB393 /* test PSTAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7DB3871BEA12AD006FB393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DB3971BEA12AD006FB393 /* LaunchScreen.storyboard in Resources */,
+				BE7DB3941BEA12AD006FB393 /* Assets.xcassets in Resources */,
+				BE7DB3921BEA12AD006FB393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7DB3851BEA12AD006FB393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DB38F1BEA12AD006FB393 /* ViewController.swift in Sources */,
+				BE7DB38D1BEA12AD006FB393 /* AppDelegate.swift in Sources */,
+				BE7DB3A71BEA12F4006FB393 /* PSTAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE7DB3901BEA12AD006FB393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7DB3911BEA12AD006FB393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE7DB3951BEA12AD006FB393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7DB3961BEA12AD006FB393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7DB3991BEA12AD006FB393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7DB39A1BEA12AD006FB393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7DB39C1BEA12AD006FB393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "test PSTAlertController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.test-PSTAlertController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test PSTAlertController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7DB39D1BEA12AD006FB393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "test PSTAlertController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.test-PSTAlertController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test PSTAlertController-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7DB3841BEA12AD006FB393 /* Build configuration list for PBXProject "test PSTAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DB3991BEA12AD006FB393 /* Debug */,
+				BE7DB39A1BEA12AD006FB393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7DB39B1BEA12AD006FB393 /* Build configuration list for PBXNativeTarget "test PSTAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DB39C1BEA12AD006FB393 /* Debug */,
+				BE7DB39D1BEA12AD006FB393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7DB3811BEA12AD006FB393 /* Project object */;
+}

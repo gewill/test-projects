@@ -159,6 +159,8 @@
 		BEC8F3EE1B87569500F0E334 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = gewill.org;
 				TargetAttributes = {
@@ -415,6 +417,7 @@
 				BEC8F41A1B87569500F0E334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC8F41B1B87569500F0E334 /* Build configuration list for PBXNativeTarget "test Core DataTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +426,7 @@
 				BEC8F41D1B87569500F0E334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

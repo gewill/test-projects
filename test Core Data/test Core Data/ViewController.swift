@@ -33,15 +33,18 @@ class ViewController: UIViewController {
         var context: NSManagedObjectContext = appDel.managedObjectContext!
         
         // get the ManagedObject
-        var newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context) as! NSManagedObject
+        var newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context) 
         
         // set value for key
         newUser.setValue("" + textUserName.text, forKey: "username")
         newUser.setValue("" + textPassword.text, forKey: "password")
         
-        // save
-        context.save(nil)
-        print("New username: \(textPassword.text) and password: \(textPassword.text) saved successfully.\n")
+        do {
+            // save
+            try context.save()
+        } catch _ {
+        }
+        print("New username: \(textPassword.text) and password: \(textPassword.text) saved successfully.\n", terminator: "")
         
         
     }
@@ -56,7 +59,7 @@ class ViewController: UIViewController {
         request.returnsObjectsAsFaults = false
         request.predicate = NSPredicate(format: "username = %@", "" + textUserName.text)
         
-        var requests: NSArray = context.executeFetchRequest(request, error: nil)!
+        var requests: NSArray = try! context.executeFetchRequest(request)
         
         if (requests.count > 0) {
             
@@ -66,7 +69,7 @@ class ViewController: UIViewController {
             
         } else {
             
-            print("0 Results Returned... Poterial Error.\n")
+            print("0 Results Returned... Poterial Error.\n", terminator: "")
         }
         
     }
