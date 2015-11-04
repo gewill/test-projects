@@ -12,7 +12,7 @@
 		BE7DB3921BEA12AD006FB393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DB3901BEA12AD006FB393 /* Main.storyboard */; };
 		BE7DB3941BEA12AD006FB393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7DB3931BEA12AD006FB393 /* Assets.xcassets */; };
 		BE7DB3971BEA12AD006FB393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DB3951BEA12AD006FB393 /* LaunchScreen.storyboard */; };
-		BE7DB3A71BEA12F4006FB393 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DB3A51BEA12F4006FB393 /* PSTAlertController.m */; };
+		BE7DB3AE1BEA1545006FB393 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DB3AD1BEA1545006FB393 /* PSTAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		BE7DB3961BEA12AD006FB393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE7DB3981BEA12AD006FB393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7DB3A01BEA12D0006FB393 /* test PSTAlertController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test PSTAlertController-Bridging-Header.h"; sourceTree = "<group>"; };
-		BE7DB3A41BEA12F4006FB393 /* PSTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
-		BE7DB3A51BEA12F4006FB393 /* PSTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTAlertController.m; sourceTree = "<group>"; };
+		BE7DB3AC1BEA1545006FB393 /* PSTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
+		BE7DB3AD1BEA1545006FB393 /* PSTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,20 +65,19 @@
 				BE7DB3931BEA12AD006FB393 /* Assets.xcassets */,
 				BE7DB3951BEA12AD006FB393 /* LaunchScreen.storyboard */,
 				BE7DB3981BEA12AD006FB393 /* Info.plist */,
-				BE7DB3A61BEA12F4006FB393 /* PSTAlertController */,
+				BE7DB3AB1BEA1545006FB393 /* PSTAlertController */,
 			);
 			path = "test PSTAlertController";
 			sourceTree = "<group>";
 		};
-		BE7DB3A61BEA12F4006FB393 /* PSTAlertController */ = {
+		BE7DB3AB1BEA1545006FB393 /* PSTAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				BE7DB3A41BEA12F4006FB393 /* PSTAlertController.h */,
-				BE7DB3A51BEA12F4006FB393 /* PSTAlertController.m */,
+				BE7DB3AC1BEA1545006FB393 /* PSTAlertController.h */,
+				BE7DB3AD1BEA1545006FB393 /* PSTAlertController.m */,
 			);
-			name = PSTAlertController;
-			path = /Users/Will/git/PSTAlertController/Example/PSTAlertViewControllerSample/../../PSTAlertController;
-			sourceTree = "<absolute>";
+			path = PSTAlertController;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -152,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7DB38F1BEA12AD006FB393 /* ViewController.swift in Sources */,
+				BE7DB3AE1BEA1545006FB393 /* PSTAlertController.m in Sources */,
 				BE7DB38D1BEA12AD006FB393 /* AppDelegate.swift in Sources */,
-				BE7DB3A71BEA12F4006FB393 /* PSTAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +305,7 @@
 				BE7DB39D1BEA12AD006FB393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

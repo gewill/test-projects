@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "173369ED4C769620ADEF07DD2618C6109D7E27AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "83818A8C3811DBE3B9B275192D01BCA75E66F123" : 0,
+    "173369ED4C769620ADEF07DD2618C6109D7E27AE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8BE7ACE6-50D3-4B05-804B-B614EB996838",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "83818A8C3811DBE3B9B275192D01BCA75E66F123" : "PSTAlertController\/",
+    "173369ED4C769620ADEF07DD2618C6109D7E27AE" : "test-projects\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "test PSTAlertController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "test PSTAlertController\/test PSTAlertController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gewill\/test-projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "173369ED4C769620ADEF07DD2618C6109D7E27AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/steipete\/PSTAlertController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83818A8C3811DBE3B9B275192D01BCA75E66F123"
+    }
+  ]
+}
