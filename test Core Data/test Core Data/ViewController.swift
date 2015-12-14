@@ -29,15 +29,15 @@ class ViewController: UIViewController {
         
         // Cora Data already settled done in AppDelegate.swift
         // get the ManagedObjectContext
-        var appDel = UIApplication .sharedApplication().delegate as! AppDelegate
-        var context: NSManagedObjectContext = appDel.managedObjectContext!
+        let appDel = UIApplication .sharedApplication().delegate as! AppDelegate
+        let context: NSManagedObjectContext = appDel.managedObjectContext!
         
-        // get the ManagedObject
-        var newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context) 
+        // get the ManagedObject（表/对象）
+        var newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context)
         
         // set value for key
-        newUser.setValue("" + textUserName.text, forKey: "username")
-        newUser.setValue("" + textPassword.text, forKey: "password")
+        newUser.setValue("" + textUserName.text!, forKey: "username")
+        newUser.setValue("" + textPassword.text!, forKey: "password")
         
         do {
             // save
@@ -51,21 +51,21 @@ class ViewController: UIViewController {
   
     @IBAction func loadButton(sender: AnyObject) {
         
-        var appDel = UIApplication .sharedApplication().delegate as! AppDelegate
-        var context: NSManagedObjectContext = appDel.managedObjectContext!
+        let appDel = UIApplication .sharedApplication().delegate as! AppDelegate
+        let context: NSManagedObjectContext = appDel.managedObjectContext!
         
         // add FetchRequest and add Predicate/ SortDescriptor etc.
-        var request = NSFetchRequest(entityName: "Users")
+        let request = NSFetchRequest(entityName: "Users")
         request.returnsObjectsAsFaults = false
-        request.predicate = NSPredicate(format: "username = %@", "" + textUserName.text)
+        request.predicate = NSPredicate(format: "username = %@", "" + textUserName.text!)
         
-        var requests: NSArray = try! context.executeFetchRequest(request)
+        let requests: NSArray = try! context.executeFetchRequest(request)
         
         if (requests.count > 0) {
             
-            var res = requests[0] as! NSManagedObject
-            textUserName.text = res.valueForKeyPath("username") as! String
-            textPassword.text = res.valueForKeyPath("password") as! String
+            let res = requests[0] as! NSManagedObject
+            textUserName.text = res.valueForKeyPath("username") as? String
+            textPassword.text = res.valueForKeyPath("password") as? String
             
         } else {
             
