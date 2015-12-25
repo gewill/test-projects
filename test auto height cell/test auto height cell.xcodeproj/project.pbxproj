@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE28CEB31C2CF0E9001D0926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28CEB21C2CF0E9001D0926 /* main.m */; };
+		BE28CEB61C2CF0E9001D0926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28CEB51C2CF0E9001D0926 /* AppDelegate.m */; };
+		BE28CEBC1C2CF0E9001D0926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE28CEBA1C2CF0E9001D0926 /* Main.storyboard */; };
+		BE28CEBE1C2CF0E9001D0926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE28CEBD1C2CF0E9001D0926 /* Assets.xcassets */; };
+		BE28CEC11C2CF0E9001D0926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE28CEBF1C2CF0E9001D0926 /* LaunchScreen.storyboard */; };
+		BE28CECA1C2CF11B001D0926 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28CEC91C2CF11B001D0926 /* TableViewController.m */; };
+		BE28CECD1C2CF3B4001D0926 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28CECC1C2CF3B4001D0926 /* TableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE28CEAE1C2CF0E9001D0926 /* test auto height cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test auto height cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28CEB21C2CF0E9001D0926 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE28CEB41C2CF0E9001D0926 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE28CEB51C2CF0E9001D0926 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE28CEBB1C2CF0E9001D0926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE28CEBD1C2CF0E9001D0926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE28CEC01C2CF0E9001D0926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE28CEC21C2CF0E9001D0926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE28CEC81C2CF11B001D0926 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		BE28CEC91C2CF11B001D0926 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		BE28CECB1C2CF3B4001D0926 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BE28CECC1C2CF3B4001D0926 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE28CEAB1C2CF0E9001D0926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE28CEA51C2CF0E9001D0926 = {
+			isa = PBXGroup;
+			children = (
+				BE28CEB01C2CF0E9001D0926 /* test auto height cell */,
+				BE28CEAF1C2CF0E9001D0926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE28CEAF1C2CF0E9001D0926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE28CEAE1C2CF0E9001D0926 /* test auto height cell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE28CEB01C2CF0E9001D0926 /* test auto height cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE28CEB41C2CF0E9001D0926 /* AppDelegate.h */,
+				BE28CEB51C2CF0E9001D0926 /* AppDelegate.m */,
+				BE28CEC81C2CF11B001D0926 /* TableViewController.h */,
+				BE28CEC91C2CF11B001D0926 /* TableViewController.m */,
+				BE28CECB1C2CF3B4001D0926 /* TableViewCell.h */,
+				BE28CECC1C2CF3B4001D0926 /* TableViewCell.m */,
+				BE28CEBA1C2CF0E9001D0926 /* Main.storyboard */,
+				BE28CEBD1C2CF0E9001D0926 /* Assets.xcassets */,
+				BE28CEBF1C2CF0E9001D0926 /* LaunchScreen.storyboard */,
+				BE28CEC21C2CF0E9001D0926 /* Info.plist */,
+				BE28CEB11C2CF0E9001D0926 /* Supporting Files */,
+			);
+			path = "test auto height cell";
+			sourceTree = "<group>";
+		};
+		BE28CEB11C2CF0E9001D0926 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE28CEB21C2CF0E9001D0926 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE28CEAD1C2CF0E9001D0926 /* test auto height cell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE28CEC51C2CF0E9001D0926 /* Build configuration list for PBXNativeTarget "test auto height cell" */;
+			buildPhases = (
+				BE28CEAA1C2CF0E9001D0926 /* Sources */,
+				BE28CEAB1C2CF0E9001D0926 /* Frameworks */,
+				BE28CEAC1C2CF0E9001D0926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test auto height cell";
+			productName = "test auto height cell";
+			productReference = BE28CEAE1C2CF0E9001D0926 /* test auto height cell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE28CEA61C2CF0E9001D0926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gewill.org;
+				TargetAttributes = {
+					BE28CEAD1C2CF0E9001D0926 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BE28CEA91C2CF0E9001D0926 /* Build configuration list for PBXProject "test auto height cell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE28CEA51C2CF0E9001D0926;
+			productRefGroup = BE28CEAF1C2CF0E9001D0926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE28CEAD1C2CF0E9001D0926 /* test auto height cell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE28CEAC1C2CF0E9001D0926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28CEC11C2CF0E9001D0926 /* LaunchScreen.storyboard in Resources */,
+				BE28CEBE1C2CF0E9001D0926 /* Assets.xcassets in Resources */,
+				BE28CEBC1C2CF0E9001D0926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE28CEAA1C2CF0E9001D0926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28CEB61C2CF0E9001D0926 /* AppDelegate.m in Sources */,
+				BE28CECD1C2CF3B4001D0926 /* TableViewCell.m in Sources */,
+				BE28CECA1C2CF11B001D0926 /* TableViewController.m in Sources */,
+				BE28CEB31C2CF0E9001D0926 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE28CEBA1C2CF0E9001D0926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE28CEBB1C2CF0E9001D0926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE28CEBF1C2CF0E9001D0926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE28CEC01C2CF0E9001D0926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE28CEC31C2CF0E9001D0926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE28CEC41C2CF0E9001D0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE28CEC61C2CF0E9001D0926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "test auto height cell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.test-auto-height-cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE28CEC71C2CF0E9001D0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "test auto height cell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.test-auto-height-cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE28CEA91C2CF0E9001D0926 /* Build configuration list for PBXProject "test auto height cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28CEC31C2CF0E9001D0926 /* Debug */,
+				BE28CEC41C2CF0E9001D0926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE28CEC51C2CF0E9001D0926 /* Build configuration list for PBXNativeTarget "test auto height cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28CEC61C2CF0E9001D0926 /* Debug */,
+				BE28CEC71C2CF0E9001D0926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE28CEA61C2CF0E9001D0926 /* Project object */;
+}
