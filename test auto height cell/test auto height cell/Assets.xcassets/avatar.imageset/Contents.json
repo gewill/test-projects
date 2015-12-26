@@ -2,12 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "favicon.png",
+      "filename" : "Twitter@3x.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     },
     {
       "idiom" : "universal",

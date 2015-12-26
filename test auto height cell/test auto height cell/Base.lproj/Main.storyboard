@@ -29,20 +29,21 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHM-K0-cQk">
-                                            <rect key="frame" x="558.5" y="8" width="33.5" height="20.5"/>
+                                            <rect key="frame" x="558" y="8" width="33.5" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6q-Yw-7lS">
-                                            <rect key="frame" x="144" y="30.5" width="52" height="20.5"/>
+                                            <rect key="frame" x="144" y="30" width="52" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2s-ut-8O3">
-                                            <rect key="frame" x="8" y="144" width="584" height="131.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="《星战大战7》主演做客诺顿秀，老一代星战女神“莱娅公主”Carrie Fisher阿姨大讲荤段子调戏新一代星战女神Daisy Ridley[doge]最后大卫贝克汉姆也不幸中枪[doge]" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2s-ut-8O3">
+                                            <rect key="frame" x="8" y="144" width="584" height="61"/>
                                             <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="7aE-e8-Hq6"/>
                                                 <constraint firstAttribute="height" constant="108" id="IFW-E9-2pb"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -54,15 +55,16 @@
                                                 </mask>
                                             </variation>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="9md-9R-XMq">
-                                            <rect key="frame" x="8" y="283.5" width="128" height="128"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="9md-9R-XMq">
+                                            <rect key="frame" x="8" y="213" width="584" height="198.5"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="128" id="alM-Pr-Jf8"/>
-                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="128" id="c8D-VY-wkR"/>
+                                                <constraint firstAttribute="width" constant="304" id="alM-Pr-Jf8"/>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="c8D-VY-wkR"/>
                                                 <constraint firstAttribute="width" constant="240" id="swB-oC-mIh"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="alM-Pr-Jf8"/>
                                                     <exclude reference="swB-oC-mIh"/>
                                                 </mask>
                                             </variation>
@@ -87,9 +89,11 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="k2s-ut-8O3" secondAttribute="trailing" id="Olq-GZ-FCD"/>
                                         <constraint firstItem="yTX-66-nyn" firstAttribute="leading" secondItem="Enb-a9-77q" secondAttribute="trailing" constant="8" id="TUh-7F-60a"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="k2s-ut-8O3" secondAttribute="leading" id="aXr-ry-Oa8"/>
+                                        <constraint firstItem="9md-9R-XMq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Enb-a9-77q" secondAttribute="bottom" constant="8" id="b0I-zf-nMW"/>
                                         <constraint firstAttribute="topMargin" secondItem="Enb-a9-77q" secondAttribute="top" id="eP4-XK-ky0"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="9md-9R-XMq" secondAttribute="bottom" id="gg2-qJ-AzY"/>
                                         <constraint firstItem="r6q-Yw-7lS" firstAttribute="leading" secondItem="Enb-a9-77q" secondAttribute="trailing" constant="8" id="hb1-h8-fM6"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="9md-9R-XMq" secondAttribute="trailing" id="lPJ-4Q-TsV"/>
                                         <constraint firstItem="k2s-ut-8O3" firstAttribute="top" secondItem="YHM-K0-cQk" secondAttribute="bottom" constant="79" id="lmE-Sh-WtZ"/>
                                         <constraint firstAttribute="topMargin" secondItem="yTX-66-nyn" secondAttribute="top" id="mj1-F9-0yo"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="YHM-K0-cQk" secondAttribute="trailing" id="t5V-QT-NG0"/>
@@ -100,6 +104,7 @@
                                             <exclude reference="2PR-GZ-JNr"/>
                                             <exclude reference="lmE-Sh-WtZ"/>
                                             <exclude reference="Igz-4N-s2T"/>
+                                            <exclude reference="b0I-zf-nMW"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
@@ -125,7 +130,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="avatar" width="128" height="128"/>
-        <image name="pic" width="152" height="152"/>
+        <image name="avatar" width="1024" height="1024"/>
+        <image name="pic" width="1920" height="1200"/>
     </resources>
 </document>
