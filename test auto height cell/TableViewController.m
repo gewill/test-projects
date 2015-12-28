@@ -51,13 +51,20 @@
   for (long i = 1; i < indexPath.row; i++) {
     [str appendString:@"The 1989 World Tour (Live)"];
   }
+  [str appendString:@"END!!!"];
   cell.text.text = str;
 
-  if (indexPath.row % 3 == 1) {
+  //移除多余边框，如果是图片是 Aspect Fill 或者 Aspect Fit
+  cell.pic.layer.borderColor = [UIColor clearColor].CGColor;
+  cell.pic.layer.borderWidth = 0.1;
+  cell.pic.layer.masksToBounds = YES;
+  
+  if (indexPath.row % 2 == 1) {
     cell.pic.image = [UIImage imageNamed:@"pic"];
   } else {
     cell.pic.image = nil;
   }
+  
   return cell;
 }
 
