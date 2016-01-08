@@ -17,31 +17,33 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+
   NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
   dateFormatter.dateFormat = @"EEE MMM d HH:mm:ss Z yyyy";
-  dateFormatter.locale =  [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
-  NSDate *date = [dateFormatter dateFromString:@"Tue Dec 29 00:35:54 +0800 2014"];
-  [self relativeDateStringForDate: date];
+  dateFormatter.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
+
+  NSDate *date =
+      [dateFormatter dateFromString:@"Tue Dec 30 16:35:54 +0800 2014"];
+  NSLog(@"-------%@", [dateFormatter stringFromDate:date]);
   
+  NSLog(@"+++++++%@", [self relativeDateStringForDate:date]);
+    
 }
-
-
 
 - (NSString *)relativeDateStringForDate:(NSDate *)date {
   NSCalendarUnit units = NSCalendarUnitSecond | NSCalendarUnitMinute |
-  NSCalendarUnitHour | NSCalendarUnitDay |
-  NSCalendarUnitWeekOfYear | NSCalendarUnitMonth |
-  NSCalendarUnitYear;
-  
+                         NSCalendarUnitHour | NSCalendarUnitDay |
+                         NSCalendarUnitWeekOfYear | NSCalendarUnitMonth |
+                         NSCalendarUnitYear;
+
   // if `date` is before "now" (i.e. in the past) then the components will be
   // positive
   NSDateComponents *components =
-  [[NSCalendar currentCalendar] components:units
-                                  fromDate:date
-                                    toDate:[NSDate date]
-                                   options:0];
-  
+      [[NSCalendar currentCalendar] components:units
+                                      fromDate:date
+                                        toDate:[NSDate date]
+                                       options:0];
+
   if (components.year > 0) {
     return [NSString stringWithFormat:@"%ldy", (long)components.year];
   } else if (components.month > 0) {
