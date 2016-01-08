@@ -32,10 +32,7 @@ class ViewController: UIViewController {
                 print(banner.zImage)
             }
         }
-        
-        
-    }
-    
+
     
 }
 
