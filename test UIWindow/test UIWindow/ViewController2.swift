@@ -10,17 +10,17 @@ import UIKit
 
 class ViewController2: UIViewController {
     
-    var Button2: UIButton!
+    var button2: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Button2 = UIButton.init(type: .Custom)
-        Button2.frame = CGRectMake(8, 100, 400, 44)
-        Button2.setTitle("Button2: Dismiss self window", forState: .Normal)
-        Button2.backgroundColor = UIColor(red: 0.502, green: 0.502, blue: 0.0, alpha: 1.0)
-        Button2.addTarget(self, action: "Button2Function", forControlEvents: .TouchUpInside)
-        self.view.addSubview(Button2)
+        button2 = UIButton.init(type: .Custom)
+        button2.frame = CGRectMake(8, 100, 400, 44)
+        button2.setTitle("Button2: Dismiss self window", forState: .Normal)
+        button2.backgroundColor = UIColor(red: 0.502, green: 0.502, blue: 0.0, alpha: 1.0)
+        button2.addTarget(self, action: "Button2Function", forControlEvents: .TouchUpInside)
+        self.view.addSubview(button2)
     }
     
     func Button2Function() {
