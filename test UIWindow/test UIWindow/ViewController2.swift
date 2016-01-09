@@ -16,8 +16,8 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         
         Button2 = UIButton.init(type: .Custom)
-        Button2.frame = CGRectMake(8, 100, 80, 44)
-        Button2.setTitle("Button2", forState: .Normal)
+        Button2.frame = CGRectMake(8, 100, 400, 44)
+        Button2.setTitle("Button2: Dismiss self window", forState: .Normal)
         Button2.backgroundColor = UIColor(red: 0.502, green: 0.502, blue: 0.0, alpha: 1.0)
         Button2.addTarget(self, action: "Button2Function", forControlEvents: .TouchUpInside)
         self.view.addSubview(Button2)
