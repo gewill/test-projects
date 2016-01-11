@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         for var i = 0; i < ban.count; i++ {
             if let banner = ban[i] as? Article {
-                print(banner.zImage)
+                print(banner.samllImage)
             }
         }
 

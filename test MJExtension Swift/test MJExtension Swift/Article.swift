@@ -10,12 +10,17 @@ import UIKit
 
 
 class Article: NSObject {
-    var id: String!
-    var title: String!
-    var zImage: String!
- 
-   override static func mj_replacedKeyFromPropertyName121(propertyName: String!) -> String! {
-        return propertyName.mj_underlineFromCamel()
+    var articleId: String?
+    var title: String?
+    var samllImage: String?
+
+
+//    override static func mj_replacedKeyFromPropertyName121(propertyName: String!) -> String! {
+//        return propertyName.mj_underlineFromCamel()
+//    }
+    //自定义转换名称
+    override static func mj_replacedKeyFromPropertyName() -> [NSObject : AnyObject]! {
+        return ["articleId": "id", "samllImage": "z_image"]
     }
     
 }
@@ -24,7 +29,7 @@ class Response: NSObject {
     var state: String!
     var result: Result!
     
-
+    
 }
 
 class Result: NSObject {
@@ -35,8 +40,8 @@ class Result: NSObject {
     var banners: [AnyObject]!
     var articles: [AnyObject]!
     
-   override static func mj_objectClassInArray() -> [NSObject : AnyObject]! {
+    override static func mj_objectClassInArray() -> [NSObject : AnyObject]! {
         return ["banners": "Article", "articles": "Article"]
     }
-
+    
 }
