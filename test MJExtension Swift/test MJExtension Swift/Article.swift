@@ -10,9 +10,9 @@ import UIKit
 
 
 class Article: NSObject {
-    var id: NSString!
-    var title: NSString!
-    var zImage: NSString!
+    var id: String!
+    var title: String!
+    var zImage: String!
  
    override static func mj_replacedKeyFromPropertyName121(propertyName: String!) -> String! {
         return propertyName.mj_underlineFromCamel()
@@ -21,19 +21,19 @@ class Article: NSObject {
 }
 
 class Response: NSObject {
-    var state: NSString!
+    var state: String!
     var result: Result!
     
 
 }
 
 class Result: NSObject {
-    var pageCount: NSString!
-    var page: NSString!
-    var lastTime: NSString!
+    var pageCount: String!
+    var page: String!
+    var lastTime: String!
     
-    var banners: NSArray!
-    var articles: NSArray!
+    var banners: [AnyObject]!
+    var articles: [AnyObject]!
     
    override static func mj_objectClassInArray() -> [NSObject : AnyObject]! {
         return ["banners": "Article", "articles": "Article"]
