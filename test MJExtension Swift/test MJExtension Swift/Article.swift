@@ -37,8 +37,8 @@ class Result: NSObject {
     var page: String!
     var lastTime: String!
     
-    var banners: [AnyObject]!
-    var articles: [AnyObject]!
+    var banners: [Article]!
+    var articles: [Article]!
     
     override static func mj_objectClassInArray() -> [NSObject : AnyObject]! {
         return ["banners": "Article", "articles": "Article"]
