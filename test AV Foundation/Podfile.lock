@@ -1,0 +1,10 @@
+PODS:
+  - TZImagePickerController (1.1.3)
+
+DEPENDENCIES:
+  - TZImagePickerController
+
+SPEC CHECKSUMS:
+  TZImagePickerController: f1105f36559852405fc93e16803430c25d7f7ea5
+
+COCOAPODS: 0.39.0

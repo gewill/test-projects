@@ -13,6 +13,7 @@ class Article: NSObject {
     var articleId: String?
     var title: String?
     var samllImage: String?
+    var sex: NSNumber?
 
 
 //    override static func mj_replacedKeyFromPropertyName121(propertyName: String!) -> String! {

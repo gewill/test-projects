@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA8E2481CA15EEA0003E13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2471CA15EEA0003E13D /* AppDelegate.swift */; };
+		BEA8E24A1CA15EEA0003E13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2491CA15EEA0003E13D /* ViewController.swift */; };
+		BEA8E24D1CA15EEA0003E13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E24B1CA15EEA0003E13D /* Main.storyboard */; };
+		BEA8E24F1CA15EEA0003E13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E24E1CA15EEA0003E13D /* Assets.xcassets */; };
+		BEA8E2521CA15EEA0003E13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2501CA15EEA0003E13D /* LaunchScreen.storyboard */; };
+		BEA8E25B1CA162080003E13D /* yishengsuoai.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2591CA15F5E0003E13D /* yishengsuoai.mp4 */; };
+		BEA8E2611CA23A5F0003E13D /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2601CA23A5F0003E13D /* RangeSlider.swift */; };
+		BECB923C1CA4E47200DFD86D /* EditVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB923B1CA4E47200DFD86D /* EditVideoCell.swift */; };
+		E7C3012105C2863E11789313 /* libPods-test AV Foundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C6833429B8844BE5CE8640 /* libPods-test AV Foundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19C6833429B8844BE5CE8640 /* libPods-test AV Foundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test AV Foundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4AC7ECB897CFC12A6E0EC9 /* Pods-test AV Foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test AV Foundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test AV Foundation/Pods-test AV Foundation.debug.xcconfig"; sourceTree = "<group>"; };
+		78832B3272651877B26FB96A /* Pods-test AV Foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test AV Foundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-test AV Foundation/Pods-test AV Foundation.release.xcconfig"; sourceTree = "<group>"; };
+		BEA8E2441CA15EEA0003E13D /* test AV Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test AV Foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA8E2471CA15EEA0003E13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA8E2491CA15EEA0003E13D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA8E24C1CA15EEA0003E13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA8E24E1CA15EEA0003E13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA8E2511CA15EEA0003E13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA8E2531CA15EEA0003E13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA8E2591CA15F5E0003E13D /* yishengsuoai.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yishengsuoai.mp4; sourceTree = "<group>"; };
+		BEA8E2601CA23A5F0003E13D /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		BECB923B1CA4E47200DFD86D /* EditVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditVideoCell.swift; sourceTree = "<group>"; };
+		BECB923D1CA4FC4000DFD86D /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA8E2411CA15EEA0003E13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C3012105C2863E11789313 /* libPods-test AV Foundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131121CEACD7F66BE5B92E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19C6833429B8844BE5CE8640 /* libPods-test AV Foundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ED8F099D25DE22046A00A6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AC7ECB897CFC12A6E0EC9 /* Pods-test AV Foundation.debug.xcconfig */,
+				78832B3272651877B26FB96A /* Pods-test AV Foundation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEA8E23B1CA15EEA0003E13D = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2461CA15EEA0003E13D /* test AV Foundation */,
+				BEA8E2451CA15EEA0003E13D /* Products */,
+				4ED8F099D25DE22046A00A6C /* Pods */,
+				131121CEACD7F66BE5B92E91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA8E2451CA15EEA0003E13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2441CA15EEA0003E13D /* test AV Foundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA8E2461CA15EEA0003E13D /* test AV Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2601CA23A5F0003E13D /* RangeSlider.swift */,
+				BEA8E2471CA15EEA0003E13D /* AppDelegate.swift */,
+				BEA8E2491CA15EEA0003E13D /* ViewController.swift */,
+				BECB923B1CA4E47200DFD86D /* EditVideoCell.swift */,
+				BEA8E24B1CA15EEA0003E13D /* Main.storyboard */,
+				BEA8E24E1CA15EEA0003E13D /* Assets.xcassets */,
+				BEA8E2501CA15EEA0003E13D /* LaunchScreen.storyboard */,
+				BEA8E2531CA15EEA0003E13D /* Info.plist */,
+				BEA8E2591CA15F5E0003E13D /* yishengsuoai.mp4 */,
+				BECB923D1CA4FC4000DFD86D /* Bridging-Header.h */,
+			);
+			path = "test AV Foundation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA8E2431CA15EEA0003E13D /* test AV Foundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA8E2561CA15EEA0003E13D /* Build configuration list for PBXNativeTarget "test AV Foundation" */;
+			buildPhases = (
+				98DA7CB32FF00905D5B8C64D /* Check Pods Manifest.lock */,
+				BEA8E2401CA15EEA0003E13D /* Sources */,
+				BEA8E2411CA15EEA0003E13D /* Frameworks */,
+				BEA8E2421CA15EEA0003E13D /* Resources */,
+				B4ED40436B3E9DAADE457787 /* Embed Pods Frameworks */,
+				58B60DB9CE864A6B747C427D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test AV Foundation";
+			productName = "test AV Foundation";
+			productReference = BEA8E2441CA15EEA0003E13D /* test AV Foundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA8E23C1CA15EEA0003E13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gewill.org;
+				TargetAttributes = {
+					BEA8E2431CA15EEA0003E13D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BEA8E23F1CA15EEA0003E13D /* Build configuration list for PBXProject "test AV Foundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA8E23B1CA15EEA0003E13D;
+			productRefGroup = BEA8E2451CA15EEA0003E13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA8E2431CA15EEA0003E13D /* test AV Foundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA8E2421CA15EEA0003E13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8E2521CA15EEA0003E13D /* LaunchScreen.storyboard in Resources */,
+				BEA8E24F1CA15EEA0003E13D /* Assets.xcassets in Resources */,
+				BEA8E24D1CA15EEA0003E13D /* Main.storyboard in Resources */,
+				BEA8E25B1CA162080003E13D /* yishengsuoai.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58B60DB9CE864A6B747C427D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test AV Foundation/Pods-test AV Foundation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98DA7CB32FF00905D5B8C64D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4ED40436B3E9DAADE457787 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test AV Foundation/Pods-test AV Foundation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA8E2401CA15EEA0003E13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8E2611CA23A5F0003E13D /* RangeSlider.swift in Sources */,
+				BEA8E24A1CA15EEA0003E13D /* ViewController.swift in Sources */,
+				BEA8E2481CA15EEA0003E13D /* AppDelegate.swift in Sources */,
+				BECB923C1CA4E47200DFD86D /* EditVideoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEA8E24B1CA15EEA0003E13D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA8E24C1CA15EEA0003E13D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA8E2501CA15EEA0003E13D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA8E2511CA15EEA0003E13D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA8E2541CA15EEA0003E13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "test AV Foundation/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA8E2551CA15EEA0003E13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "test AV Foundation/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA8E2571CA15EEA0003E13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4AC7ECB897CFC12A6E0EC9 /* Pods-test AV Foundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "test AV Foundation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.test-AV-Foundation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test AV Foundation/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEA8E2581CA15EEA0003E13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78832B3272651877B26FB96A /* Pods-test AV Foundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "test AV Foundation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.test-AV-Foundation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test AV Foundation/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA8E23F1CA15EEA0003E13D /* Build configuration list for PBXProject "test AV Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA8E2541CA15EEA0003E13D /* Debug */,
+				BEA8E2551CA15EEA0003E13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA8E2561CA15EEA0003E13D /* Build configuration list for PBXNativeTarget "test AV Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA8E2571CA15EEA0003E13D /* Debug */,
+				BEA8E2581CA15EEA0003E13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA8E23C1CA15EEA0003E13D /* Project object */;
+}
