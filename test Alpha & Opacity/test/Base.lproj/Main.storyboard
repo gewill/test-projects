@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="85H-Fq-CbF">
+                                <rect key="frame" x="-2" y="414" width="324" height="31"/>
+                                <connections>
+                                    <action selector="alphaSliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="vIf-DS-WzM"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PyS-Bn-Bf2">
+                                <rect key="frame" x="-2" y="452" width="324" height="31"/>
+                                <connections>
+                                    <action selector="opacitySliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="lWU-Px-nDI"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="85H-Fq-CbF" firstAttribute="leading" secondItem="PyS-Bn-Bf2" secondAttribute="leading" id="8YF-ZB-LGt"/>
+                            <constraint firstItem="85H-Fq-CbF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KGv-FY-buG"/>
+                            <constraint firstItem="PyS-Bn-Bf2" firstAttribute="top" secondItem="85H-Fq-CbF" secondAttribute="bottom" constant="8" symbolic="YES" id="ays-gN-Qe8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PyS-Bn-Bf2" secondAttribute="bottom" constant="86" id="hMU-zk-e2r"/>
+                            <constraint firstAttribute="trailing" secondItem="85H-Fq-CbF" secondAttribute="trailing" id="hnA-aH-6AH"/>
+                            <constraint firstItem="85H-Fq-CbF" firstAttribute="trailing" secondItem="PyS-Bn-Bf2" secondAttribute="trailing" id="yaT-Vf-ZnX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="252"/>
+        </scene>
+    </scenes>
+</document>
