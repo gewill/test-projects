@@ -82,7 +82,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
         switch AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo) {
         case AVAuthorizationStatus.NotDetermined:
             dispatch_suspend(self.sessionQueue)
-            AVCaptureDevice.requestAccessForMediaType(AVMediaTypeVideo, completionHandler: { (granted) in
+            AVCaptureDevice.requestAccessForMediaType(AVMediaTypeVideo, completionHandler: {
+                (granted) in
                 if granted == false {
                     self.setupResult = JLXAVCamSetupResult.CameraNotAuthorized
                 }
@@ -171,11 +172,11 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
                 } else {
                     connection.enablesVideoStabilizationWhenAvailable = true
                 }
-                
+
                 if connection.supportsVideoOrientation {
                     connection.videoOrientation = AVCaptureVideoOrientation.LandscapeRight
                 }
-                
+
                 self.movieFileOutput = movieFileOutput
             } else {
                 print("Could not add movie file output to the session")
@@ -214,7 +215,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
                             let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
                             let cancelAction = UIAlertAction(title: cancelText, style: UIAlertActionStyle.Cancel, handler: nil)
                             alertController.addAction(cancelAction)
-                            let settingsAction = UIAlertAction(title: settingsText, style: UIAlertActionStyle.Default, handler: { (action) in
+                            let settingsAction = UIAlertAction(title: settingsText, style: UIAlertActionStyle.Default, handler: {
+                                (action) in
                                 UIApplication.sharedApplication().openURL(NSURL(string: UIApplicationOpenSettingsURLString)!)
                             })
                             alertController.addAction(settingsAction)
@@ -282,7 +284,7 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String: AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String:AnyObject]?, context: UnsafeMutablePointer<Void>) {
         if context == &SessionRunningContext {
             if let isSessionRunning = change?[NSKeyValueChangeNewKey]?.boolValue where
             isSessionRunning == true {
@@ -336,8 +338,7 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
         // In iOS 9 and later, the userInfo dictionary contains information on why the
         // session was interrupted.
         if #available(iOS 9.0, *) {
-            if let reason = notification.userInfo?[AVCaptureSessionInterruptionReasonKey] where reason is Int
-            {
+            if let reason = notification.userInfo?[AVCaptureSessionInterruptionReasonKey] where reason is Int {
                 if (reason as! Int) == AVCaptureSessionInterruptionReason.AudioDeviceInUseByAnotherClient.rawValue || (reason as! Int) == AVCaptureSessionInterruptionReason.VideoDeviceInUseByAnotherClient.rawValue {
                     showResumeButton = true
                 } else if (reason as! Int) == AVCaptureSessionInterruptionReason.VideoDeviceNotAvailableWithMultipleForegroundApps.rawValue {
@@ -373,7 +374,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
         if !self.resumeButton.hidden {
             UIView.animateWithDuration(0.25, animations: {
                 self.resumeButton.alpha = 0
-                }, completion: { (finished) in
+            }, completion: {
+                (finished) in
                 self.resumeButton.hidden = true
             })
         }
@@ -381,7 +383,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
         if !self.cameraUnavailableLabel.hidden {
             UIView.animateWithDuration(0.25, animations: {
                 self.cameraUnavailableLabel.alpha = 0
-                }, completion: { (finished) in
+            }, completion: {
+                (finished) in
                 self.cameraUnavailableLabel.hidden = true
             })
         }
@@ -427,6 +430,7 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
             }
         }
     }
+
     @IBAction func recordButtonClick(sender: AnyObject) {
         // Disable the Camera button until recording finishes, and disable the Record
         // button until recording starts or finishes. See the
@@ -593,7 +597,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
         if success {
             // Check authorization status.
             if #available(iOS 8.0, *) {
-                PHPhotoLibrary.requestAuthorization({ (status) in
+                PHPhotoLibrary.requestAuthorization({
+                    (status) in
                     if status == PHAuthorizationStatus.Authorized {
                         // Save the movie file to the photo library and cleanup.
                         PHPhotoLibrary.sharedPhotoLibrary().performChanges({
@@ -610,7 +615,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
                                 // Fallback on iOS 8 versions
                                 PHAssetChangeRequest.creationRequestForAssetFromVideoAtFileURL(outputFileURL)
                             }
-                            }, completionHandler: { (success, error) in
+                        }, completionHandler: {
+                            (success, error) in
                             if !success {
                                 print("Could not save movie to photo library: \(error.debugDescription)")
                             }
@@ -624,7 +630,8 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
                 // Fallback on iOS 7 versions
                 let library: ALAssetsLibrary = ALAssetsLibrary()
                 if library.videoAtPathIsCompatibleWithSavedPhotosAlbum(outputFileURL) {
-                    library.writeVideoAtPathToSavedPhotosAlbum(outputFileURL, completionBlock: { (newURL: NSURL!, error: NSError!) in
+                    library.writeVideoAtPathToSavedPhotosAlbum(outputFileURL, completionBlock: {
+                        (newURL: NSURL!, error: NSError!) in
                         if (error != nil) {
                             print("Error writing image with metadata to Photo Library: \(error.debugDescription)")
                         }
@@ -688,7 +695,7 @@ class JLXCameraViewController: UIViewController, AVCaptureFileOutputRecordingDel
     }
 
     class func deviceWithMediaType(mediaType: String, preferringPosition position: AVCaptureDevicePosition) -> AVCaptureDevice {
-        let devices = AVCaptureDevice.devicesWithMediaType(mediaType) as![AVCaptureDevice!]
+        let devices = AVCaptureDevice.devicesWithMediaType(mediaType) as! [AVCaptureDevice!]
         var captureDevice = devices.first
 
         for device in devices {

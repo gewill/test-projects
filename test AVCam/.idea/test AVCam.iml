@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/test AVCam-dxhoiiqibzdgwbacwtyrfkrzmhjf/Build/Intermediates/test AVCam.build/Debug-iphoneos/test AVCam.build/DerivedSources" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/test AVCam/JLXPreviewView.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test AVCam/JLXCameraViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test AVCam/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test AVCam/JLXCameraViewController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test AVCam/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test AVCam/JLXCameraViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test AVCam/JLXTimeHelper.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test AVCam/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test AVCam/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test AVCam/JLXTimeHelper.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test AVCam/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
