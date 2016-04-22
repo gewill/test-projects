@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  test
+//  test RAReorderableLayout
 //
-//  Created by Will on 4/20/16.
+//  Created by Will on 4/21/16.
 //  Copyright © 2016 gewill.org. All rights reserved.
 //
 

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  test
+//  test UICollection
 //
 //  Created by Will on 4/20/16.
 //  Copyright © 2016 gewill.org. All rights reserved.

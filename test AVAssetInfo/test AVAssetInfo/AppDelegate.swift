@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  test
+//  test AVAssetInfo
 //
-//  Created by Will on 4/20/16.
+//  Created by Will on 4/22/16.
 //  Copyright © 2016 gewill.org. All rights reserved.
 //
 

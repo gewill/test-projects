@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef4ba9df-6b3a-49f7-80d4-308db7c4aa4c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testWMPageController+MMDrawerController" afterPath="$PROJECT_DIR$/../testWMPageController+MMDrawerController" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test AVCam.iml" afterPath="$PROJECT_DIR$/.idea/test AVCam.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test AVCam/JLXCameraViewController.swift" afterPath="$PROJECT_DIR$/test AVCam/JLXCameraViewController.swift" />
     </list>
     <ignored path="test AVCam.iws" />
     <ignored path=".idea/workspace.xml" />
