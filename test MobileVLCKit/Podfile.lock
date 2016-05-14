@@ -1,0 +1,10 @@
+PODS:
+  - MobileVLCKit (2.2.2)
+
+DEPENDENCIES:
+  - MobileVLCKit
+
+SPEC CHECKSUMS:
+  MobileVLCKit: 75c2c36b0e3478c3f18cac3a2e7fa127cda0ff92
+
+COCOAPODS: 0.39.0

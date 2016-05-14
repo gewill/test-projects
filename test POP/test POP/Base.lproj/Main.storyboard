@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test_POP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Sample14" translatesAutoresizingMaskIntoConstraints="NO" id="yTq-K2-kN5">
+                                <rect key="frame" x="20" y="348" width="375" height="40"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CJr-8c-zrK"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yTq-K2-kN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8KG-3p-phF"/>
+                            <constraint firstItem="yTq-K2-kN5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="SZl-u0-WOY"/>
+                            <constraint firstItem="yTq-K2-kN5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="328" id="fwB-R6-n1S"/>
+                            <constraint firstItem="yTq-K2-kN5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jWr-zw-z90"/>
+                            <constraint firstItem="yTq-K2-kN5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qfm-1W-a4K"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yTq-K2-kN5" secondAttribute="trailing" id="ua6-ot-Dup"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8KG-3p-phF"/>
+                                <exclude reference="SZl-u0-WOY"/>
+                                <exclude reference="fwB-R6-n1S"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imageView" destination="yTq-K2-kN5" id="CP2-DI-aoM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="316"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sample14" width="1024" height="682"/>
+    </resources>
+</document>
